@@ -549,22 +549,21 @@
                         <h6 class="section-title mb-4">Get In Touch</h6>
                         <form name="contact" method="POST" data-netlify="true">
                             <div class="form-group">
-                                <input type="text" class="form-control form-control-lg" placeholder="Your Name" required>
+                                <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="name" required>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control form-control-lg" placeholder="Email Address" required>
+                                <input type="email" class="form-control form-control-lg" placeholder="Email Address" name="email" required>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control form-control-lg" placeholder="Subject">
+                                <input type="text" class="form-control form-control-lg" placeholder="Subject" name="subject">
                             </div>
                             <div class="form-group">
-                                <textarea name="contact-message" cols="30" rows="7" class="form-control form-control-lg" placeholder="Your Message"></textarea>
+                                <textarea name="message" cols="30" rows="7" class="form-control form-control-lg" placeholder="Your Message"></textarea>
                             </div>
                             <div class="form-group">
                                 <div data-netlify-recaptcha="true"> </div>
                             </div>
                             <button type="submit" class="btn btn-primary btn-block btn-lg mt-3">Send Message</button>
-
                         </form>
                     </div>
                 </div>
